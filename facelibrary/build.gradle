@@ -26,4 +26,6 @@ android {
 }
 
 dependencies {
+    api files('libs/com.leshun.hw.interface.jar')
+    api files('libs/FacePassAndroidProSDK-year-release.aar')
 }
